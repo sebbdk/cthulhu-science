@@ -51,7 +51,7 @@ p {
 	margin: 0;
 	margin-bottom: 10px; 
 	line-height: 36px;
-	text-transform: uppercase;
+	//text-transform: uppercase;
 }
 
 a {
@@ -59,4 +59,12 @@ a {
 	line-height: 44px;
 	color: #ddd;
 	text-decoration: none;
+}
+
+.le-btn {
+	position: absolute;
+	bottom: -60px;
+	left: 0px;
+	min-width: 40px;
+	min-height: 40px;
 }

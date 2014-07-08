@@ -301,7 +301,7 @@ var scenes = {
 	//scene 04
 	"bathroom":{
 		graphic:"img/scene04.png",
-		text:"You enter the bathroom and quickly rushe into one of the stalls, having relieved yourself, you take monment, and think about what the other old ones might be doing right now.",
+		text:"You enter the bathroom and quickly rushe into one of the stalls, having relieved yourself, you think for a moment about what the other old ones might be doing right about now.",
 		actions:[
 			{
 				text:"Exit to go was your hands.",
@@ -317,7 +317,7 @@ var scenes = {
 		text:"A thick yellow gas fills the stall, you get out to wash you hands.",
 		actions:[
 			{
-				text:"Go wash your hands.",
+				text:"Go wash your hands you filthy thing!",
 				goto:"thewashening"
 			}
 		]
@@ -349,7 +349,7 @@ var scenes = {
 	//scene 05
 	"aquicksnack":{
 		graphic:"img/scene03_revealed.png",
-		text:"Before hitting the desk you stop the cafeteria to grab soem coffee, someone seems to have put a cup out for you so you just grab that.",
+		text:"Before hitting the desk you stop by the cafeteria to grab some coffee, someone seems to have put a cup out for you so you just grab that.",
 		actions:[
 			{
 				text:"Head into the hallway to get back to your work.",
@@ -374,7 +374,7 @@ var scenes = {
 		]
 	},
 	"coffee":{
-		text:'You put some coffee in them, and they imidiatly freshen up "stell\'bsna n\'ghft" they start chanting, "aye, that sounds like great fun!" you tell them.',
+		text:'You put some coffee in them, and they imidiatly freshen up "stell\'bsna n\'ghft" they chant, "aye, that sounds like great fun!" you tell them.',
 		actions:[
 			{
 				text:"Head into your office",
