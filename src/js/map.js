@@ -279,7 +279,7 @@ var scenes = {
 	},
 	"pettingtime":{
 		graphic:"img/scene03_mess_death.png",
-		text:"Your co'worker grabs a spork and runs at you like a maniac 'this is for Jhonny' he screams at you, he then trips and accidently stabs him self.. 'how unfortunate' you mutter 'and he never even got to give Jhonny his spork.'",
+		text:"Your co'worker grabs a spork and runs at you like a maniac 'this is for Johnny' he screams at you, he then trips and accidently stabs him self.. 'how unfortunate' you mutter 'and he never even got to give Johnny his spork.'",
 		actions:[
 			{
 				text:"Rush to the bathroom!",
