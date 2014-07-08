@@ -36,7 +36,7 @@
 		$('.info-area a').remove();
 		$.each(scenes[id].actions, function(index, action) {
 			action
-			$('.info-area').append('<a href="#" data-goto="' + action.goto + '">' + action.text + '</a>')
+			$('.info-area').append('<a href="#" data-goto="' + action.goto + '"> - ' + action.text + '</a>')
 		});
 	}
 

@@ -1,6 +1,7 @@
 var scenes = {
 	//scene 01
 	"start":{
+		graphic:"img/scene01.png",
 		text:"You are standing in a jar.",
 		actions:[
 			{
@@ -18,7 +19,7 @@ var scenes = {
 		]
 	},
 	"waitaround":{
-		text:"You wait around, then gentleman outside pushes a few buttons and you feel a sharp pain in your feet, suddenly you feel incredibly impatient.",
+		text:"You wait around, then gentleman outside pushes a few buttons and you feel a sharp burning pain in your feet.",
 		actions:[
 			{
 				text:"Wait around, this seems like a nice jar.",
@@ -35,7 +36,7 @@ var scenes = {
 		]
 	},
 	"prettypony":{
-		text:"You unebelievably nimble dance garners som attention from the scientist outside, but he seems uninterested the moment you stop.",
+		text:"You unebelievably nimble dance garners no attention from the scientist outside, he must not be into dancing, the insolence!",
 		actions:[
 			{
 				text:"Wait around, this seems like a nice jar.",
@@ -56,18 +57,18 @@ var scenes = {
 		text:"You pummel you head against the side of the giant glass jar.. You now have a headache, and also several pieces of glass stuck on your bald head.. Also there is a large hole in the jar now.",
 		actions:[
 			{
-				text:"Talk science' to your collegue, and show how him the schience of the jar.",
+				text:"Exit and talk science' to your collegue!",
 				goto:"sciencejar"
 			},
 			{
-				text:"Give you collegue a hug, it's a been a while since you saw, and he's looking a bit nervous.",
+				text:"Exit and give you collegue a hug, it's a been a while since you saw him, and he's looking a bit nervous.",
 				goto:"caringcoworker"
 			}
 		]
 	},
 	"sciencejar":{
 		graphic:"img/scene01.2.png",
-		text:"You mutter something random, you grab the scientist by his hand, and then you proceed to pull him into the glass, he does not seem all too thrilled bout he situation, but goes along.",
+		text:"You mutter something random, and grab the scientist by his hand, and then you proceed to pull him into the now broken glass-container, he does not seem all too thrilled about the situation, but goes along.",
 		actions:[
 			{
 				text:"Push some buttons on that there panel, beam him up scottie!",
@@ -77,7 +78,7 @@ var scenes = {
 	},
 	"sciencejarresult":{
 		graphic:"img/scene01.3.png",
-		text:"You co'worker start shaking violently, the science is working! moments later he collapses, the experiment must have fatigued him greatly, how quaint!",
+		text:"You co'worker starts shaking violently, the science is working! moments later he collapses, the experiment must have fatigued him greatly, how quaint!",
 		actions:[
 			{
 				text:"Sing a random song about the old ones and spagetti.",
@@ -87,7 +88,7 @@ var scenes = {
 	},
 	"caringcoworker":{
 		graphic:"img/scene01.4.png",
-		text:"You rush towards you coworker to give a hug, he tries to dodge, but your unending love scoops him in and you hug him with all your might. A few seconds laters he falls asleep, the poor thing must have been very tired!",
+		text:"You rush towards you co'worker to give him a hug, he tries to dodge, but your unending love scoops him in and you hug him with all your might. A few seconds laters he falls asleep, he must have been narcoleptic, poor thing.",
 		actions:[
 			{
 				text:"Sing a lullaby to your co'worker while you carress his bald head.",
@@ -155,7 +156,7 @@ var scenes = {
 	},
 	"workwork":{
 		graphic:"img/scene02_brother.png",
-		text:"Your brother Hastur and a few of your collegues come out from the door to the cantina.",
+		text:"Your devious brother Hastur and a few of your collegues come out from the cantina.",
 		actions:[
 			{
 				text:"Give Hastur a highfive",
@@ -183,7 +184,7 @@ var scenes = {
 	},
 	"highfive":{
 		graphic:"img/scene02_after5.png",
-		text:"You and Hastur clashes hands like never before! The air start to feel odd and a hole in time and space appears, 'that must be a first' you mutter. Momentarely after you co'workers flee the room, a few puppies came out of the portal, maybe they were allergic? ",
+		text:"You and Hastur clashes hands like never before! A moment after a hole in time and space appears, 'that must be a first' you mutter. Momentarely after you co'workers flee the room, a few cute puppies came out of the portal.",
 		actions:[
 			{
 				text:"Go to the cantina, you have a donut craving!",
@@ -196,7 +197,7 @@ var scenes = {
 		]
 	},
 	"petthepuppies":{
-		text:"The cute little puppies approach you and purr like kittens, which is a bit odd since they are dogs. Anyway you pet them on the head and after that they rush down the hallway.",
+		text:"The cute little puppies approach you and purr like kittens, which is a bit odd, since they are dogs. Anyway you pet them on the head and after that they rush down the hallway.",
 		actions:[
 			{
 				text:"Go to the cantina, you have a donut craving!",
@@ -206,10 +207,10 @@ var scenes = {
 	},
 	"tentaclelock":{
 		graphic:"img/scene02_aftertumble.png",
-		text:"You jump Hastur like a mad dog and quicky subdue him to teach him his place, as  you tumble through the room you lose sight of your co'workers, you wonder for a moment where they whent and then proceeed to give you brother a few 'coconuts' on the head.",
+		text:"You jump Hastur like a mad dog and quicky subdue him to teach him his place, as  you tumble through the room you lose sight of your co'workers, you wonder for a second where they whent, but then proceeed to give you brother a few 'coconuts' on his head.",
 		actions:[
 			{
-				text:"Finish off your brother and go quest for donuts!",
+				text:"Finish off your devious brother and go quest for donuts!",
 				goto:"foodtime"
 			}
 		]
@@ -218,7 +219,7 @@ var scenes = {
 	//scene 03
 	"foodtime":{
 		graphic:"img/scene03.png",
-		text:"You enter the cantina, which is surprisingly empty. The counter has a plethora of scrumtchy edibles on it, that anyone could leave it alone, seems unthinkable to you.",
+		text:"You enter the cantina, which is surprisingly empty. The counter has a plethora of scrumtchy edibles on it. That anyone could leave it alone, seems almost unthinkable to you.",
 		actions:[
 			{
 				text:"gorge uppon the delicous donuts and meats laid out on the counter.",
