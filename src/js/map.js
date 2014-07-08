@@ -361,7 +361,7 @@ var scenes = {
 	//scene 06
 	"hallwaychaos":{
 		graphic:"img/scene02_revealed.png",
-		text:"You run into you collegues and you brother in the hallway, they dont seem very talkative tho.",
+		text:"You run into your collegues and your brother in the hallway, they dont seem very talkative tho.",
 		actions:[
 			{
 				text:"Give them a hit of your coffee to freshen them up a bit",
