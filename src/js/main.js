@@ -2,7 +2,7 @@
 * @Author: sebb
 * @Date:   2014-07-07 19:57:46
 * @Last Modified by:   sebb
-* @Last Modified time: 2014-07-07 19:58:56
+* @Last Modified time: 2015-04-08 01:22:44
 */
 
 (function($) {
@@ -13,7 +13,9 @@
 
 	$(document).on('click', 'a', linkToScene);
 
-	function linkToScene() {
+	function linkToScene(evt) {
+		evt.preventDefault();
+		
 		var id = $(this).attr('data-goto');
 		console.log(id);
 		gotoScene(id);
@@ -27,6 +29,12 @@
 	}
 
 	function gotoScene(id) {
+		_track('choice_load', id);
+
+		if(id == "The end!") {
+			_track('complete_play', id);			
+		}
+
 		$('p').html(scenes[id].text);
 
 		if(scenes[id].graphic) {

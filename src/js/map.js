@@ -415,7 +415,7 @@ var scenes = {
 		]
 	},
 	"lol":{
-		text:"The one BELOW the game ;)",
+		text:"The one ABOVE the game ;)",
 		actions:[
 			{
 				text:"Play this awesome thing again!",

@@ -16,7 +16,12 @@
 </head>
 <body>
 
-	<h1>Cthulhu science</h1>
+	<h1>
+		Cthulhu science
+		<div class="le-btn">
+			<div class="fb-like" data-href="http://sebbdk.github.io/cthulhu-science/src/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>	
+		</div>
+	</h1>
 
 	<div class="scene">
 		<img src="img/scene01.png">
@@ -27,10 +32,6 @@
 			<a href="#">Answer 01</a>
 			<a href="#">Answer 02</a>
 			<a href="#">Answer 03</a>
-		</div>
-
-		<div class="le-btn">
-			<div class="fb-like" data-href="http://sebbdk.github.io/cthulhu-science/src/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>	
 		</div>
 	</div>
 
@@ -59,9 +60,11 @@
 	<script src="js/map.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 
-	<script src="//track.sebb.dk/js/track.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script src="//track.sebb.dk/js/track.js" type="text/javascript" charset="utf-8"></script>-->
+	<script src="http://localhost/track/js/track.js" type="text/javascript" charset="utf-8"></script>
 	<script>
-		_track('cthulhu_science');
+		_track.propertyID = "cthulhu_science";
+		_track();
 	</script>
 </body>
 </html>
