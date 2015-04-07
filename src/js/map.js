@@ -398,7 +398,7 @@ var scenes = {
 
 	"The end!":{
 		graphic:"img/end.png",
-		text:"Thank you for playing, push the little like button below if you liked this short story!",
+		text:"Thank you for playing, push the little like button above to let me know you liked this short story!",
 		actions:[
 			{
 				text:"Press the like button",
