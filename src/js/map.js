@@ -1,5 +1,15 @@
 var scenes = {
 	//scene 01
+	"logo":{
+		graphic:"img/logo.png",
+		text:"",
+		actions:[
+			{
+				text:"",
+				goto:"start"
+			}
+		]
+	},
 	"start":{
 		graphic:"img/scene01.png",
 		text:"You are standing in a jar.",

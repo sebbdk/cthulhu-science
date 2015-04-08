@@ -2,7 +2,7 @@
 * @Author: sebb
 * @Date:   2014-07-07 19:57:46
 * @Last Modified by:   sebb
-* @Last Modified time: 2015-04-08 01:22:44
+* @Last Modified time: 2015-04-08 02:30:47
 */
 
 (function($) {
@@ -22,17 +22,23 @@
 	}
 
 	function load() {
-	//	$.get('map.json', function(response) {
-		//	scenes = response.game;
-			gotoScene("start");
-	//	}, 'json');
+		$('.scene, body').css('background-color', '#333');
+		gotoScene("logo");
+		setTimeout(function() {
+			$('.scene').fadeOut(function() {
+				$('.scene, body').css('background-color', '#999');
+				gotoScene("start");	
+				$('.scene').fadeIn()
+			});
+		}, 2000);
+		
 	}
 
 	function gotoScene(id) {
-		_track('choice_load', id);
+	//	_track('choice_load', id);
 
 		if(id == "The end!") {
-			_track('complete_play', id);			
+	//		_track('complete_play', id);			
 		}
 
 		$('p').html(scenes[id].text);
