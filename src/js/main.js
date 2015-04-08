@@ -2,7 +2,7 @@
 * @Author: sebb
 * @Date:   2014-07-07 19:57:46
 * @Last Modified by:   sebb
-* @Last Modified time: 2015-04-08 02:41:30
+* @Last Modified time: 2015-04-08 02:43:13
 */
 
 (function($) {
@@ -31,10 +31,10 @@
 	}
 
 	function gotoScene(id) {
-	//	_track('choice_load', id);
+		_track('choice_load', id);
 
 		if(id == "The end!") {
-	//		_track('complete_play', id);			
+			_track('complete_play', id);			
 		}
 
 		$('p').html(scenes[id].text);
