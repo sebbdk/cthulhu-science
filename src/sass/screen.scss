@@ -12,9 +12,18 @@
   src: local('PT Sans'), local('PTSans-Regular'), url(http://themes.googleusercontent.com/static/fonts/ptsans/v6/7YGmE4Ls5b94ct65u07hVQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	background-color: #999999;
 	font-family: 'PT Sans';
+	background-image: url(../img/logo.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
 }
 
 .scene {
@@ -69,5 +78,8 @@ a {
 }
 
 .le-btn {
- 	display: block;
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 40px;
 }

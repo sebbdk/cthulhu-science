@@ -2,7 +2,7 @@
 * @Author: sebb
 * @Date:   2014-07-07 19:57:46
 * @Last Modified by:   sebb
-* @Last Modified time: 2015-04-08 02:30:47
+* @Last Modified time: 2015-04-08 02:41:30
 */
 
 (function($) {
@@ -22,14 +22,10 @@
 	}
 
 	function load() {
-		$('.scene, body').css('background-color', '#333');
-		gotoScene("logo");
+		$('.game-wrapper').hide();
 		setTimeout(function() {
-			$('.scene').fadeOut(function() {
-				$('.scene, body').css('background-color', '#999');
-				gotoScene("start");	
-				$('.scene').fadeIn()
-			});
+			gotoScene("start");	
+			$('.game-wrapper').fadeIn();
 		}, 2000);
 		
 	}
